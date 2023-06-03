@@ -1,0 +1,62 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    /* Enable scrollbars if necessary */
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#maze {
+    width: 90vmin;
+    /* Use vmin to ensure the maze fits within the viewport */
+    height: 90vmin;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cell {
+    width: calc(100% / 30);
+    /* Assuming a 50x50 maze */
+    height: calc(100% / 30);
+}
+
+.wall {
+    background-color: black;
+}
+
+.free {
+    background-color: white;
+}
+
+.player {
+    background-image: url('catBanana.gif');
+    background-size: cover;
+    transition: all 2.5s ease;
+    /* Adjust the timing and easing function as desired */
+}
+
+.exit1 {
+    background-image: url('catApple.gif');
+    background-size: cover;
+}
+
+.exit2 {
+    background-image: url('catHappy.gif');
+    background-size: cover;
+}
+
+.exit3 {
+    background-image: url('catMaxwell.gif');
+    background-size: cover;
+}
+
+.exit4 {
+    background-image: url('catOrange.gif');
+    background-size: cover;
+}
