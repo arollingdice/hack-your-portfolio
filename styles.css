@@ -10,6 +10,8 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url('stars.gif');
+    background-size: cover;
 }
 
 #maze {
@@ -18,20 +20,28 @@ html {
     height: 90vmin;
     display: flex;
     flex-wrap: wrap;
+    background-image: url('retro.gif');
+    /* replace 'shining-dots.gif' with the path to your .gif file */
+    background-repeat: repeat;
+    /* this will make the image repeat across the entire container */
+    background-size: cover;
+    /* this will make the image scale to fit the container */
 }
 
 .cell {
     width: calc(100% / 30);
     /* Assuming a 50x50 maze */
     height: calc(100% / 30);
+    /* background-color: rgb(65, 63, 90); */
 }
 
 .wall {
-    background-color: black;
+    background-image: url(wall.png);
+    background-size: cover;
 }
 
 .free {
-    background-color: white;
+    /* background-color: rgb(65, 63, 90); */
 }
 
 .player {
@@ -41,22 +51,28 @@ html {
     /* Adjust the timing and easing function as desired */
 }
 
+
 .exit1 {
     background-image: url('catApple.gif');
     background-size: cover;
+    background-color: #000000;
 }
 
 .exit2 {
     background-image: url('catHappy.gif');
     background-size: cover;
+    background-color: #000000;
 }
 
 .exit3 {
     background-image: url('catMaxwell.gif');
     background-size: cover;
+    background-color: #000000;
 }
 
 .exit4 {
     background-image: url('catOrange.gif');
     background-size: cover;
+    /* mix-blend-mode: multiply; */
+    background-color: #000000;
 }
