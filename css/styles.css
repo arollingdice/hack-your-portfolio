@@ -40,10 +40,6 @@ html {
     background-size: cover;
 }
 
-.free {
-    /* background-color: rgb(65, 63, 90); */
-}
-
 .player {
     background-image: url('/image/catBanana.gif');
     background-size: cover;
