@@ -78,8 +78,8 @@ function tryMove(row, col) {
 
             // Check for the exit before updating the player's position
             if (isExit(row, col)) {
-                // alert('Congratulations, you reached the exit!');
-                // Redirect to a different page (you should replace this with your own URLs)
+
+
                 if (maze[row][col] == 'exit1') window.location.href = "introduction.html";
                 else if (maze[row][col] == 'exit2') window.location.href = "projects.html";
                 else if (maze[row][col] == 'exit3') window.location.href = "https://drive.google.com/file/d/1NUT-xahY0JNtIRteXJbZghRZ7HKa8Sc7/view?usp=sharing";
