@@ -88,3 +88,8 @@ body.is-article-visible #footer {
 body.is-preload #footer {
     opacity: 0;
 }
+
+.image.main img {
+    max-width: 100%;
+    height: auto;
+}
