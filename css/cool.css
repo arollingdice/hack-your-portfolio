@@ -43,3 +43,11 @@ form textarea::placeholder {
     border-radius: 10px;
     /* rounded corners */
 }
+
+.image.main {
+    display: flex;
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+}
