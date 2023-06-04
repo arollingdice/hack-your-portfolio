@@ -10,7 +10,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('/image/stars.gif');
+    background-image: url('../image/stars.gif');
     background-size: cover;
 }
 
@@ -20,7 +20,7 @@ html {
     height: 90vmin;
     display: flex;
     flex-wrap: wrap;
-    background-image: url('/image/retro.gif');
+    background-image: url('../image/retro.gif');
     /* replace 'shining-dots.gif' with the path to your .gif file */
     background-repeat: repeat;
     /* this will make the image repeat across the entire container */
@@ -36,12 +36,12 @@ html {
 }
 
 .wall {
-    background-image: url(/image/wall.png);
+    background-image: url(../image/wall.png);
     background-size: cover;
 }
 
 .player {
-    background-image: url('/image/catBanana.gif');
+    background-image: url('../image/catBanana.gif');
     background-size: cover;
     transition: all 2.5s ease;
     /* Adjust the timing and easing function as desired */
@@ -49,25 +49,25 @@ html {
 
 
 .exit1 {
-    background-image: url('/image/catApple.gif');
+    background-image: url('../image/catApple.gif');
     background-size: cover;
     background-color: #000000;
 }
 
 .exit2 {
-    background-image: url('/image/catHappy.gif');
+    background-image: url('../image/catHappy.gif');
     background-size: cover;
     background-color: #000000;
 }
 
 .exit3 {
-    background-image: url('/image/oiiaioooooiai.gif');
+    background-image: url('../image/oiiaioooooiai.gif');
     background-size: cover;
     background-color: #000000;
 }
 
 .exit4 {
-    background-image: url('/image/catOrange.gif');
+    background-image: url('../image/catOrange.gif');
     background-size: cover;
     /* mix-blend-mode: multiply; */
     background-color: #000000;
