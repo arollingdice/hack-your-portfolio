@@ -32,3 +32,14 @@ form textarea::placeholder {
     color: #ffffff;
     font-family: '20px Lexend', sans-serif;
 }
+
+.text-panel {
+    background: rgba(41, 35, 35, 0.8);
+    /* white background with 80% opacity */
+    padding: 20px;
+    /* some padding to add space around the text */
+    margin: 20px;
+    /* some margin to add space around the panel */
+    border-radius: 10px;
+    /* rounded corners */
+}
